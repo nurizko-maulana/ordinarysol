@@ -15,6 +15,14 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+.banner .button {
+  display: block;
+  color: white;
+}
+
+.banner {
+  flex-direction: column;
+}
 .section {
   display: flex;
   height: 100vh;
@@ -22,6 +30,9 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+.snap-scroll {
   scroll-snap-align: start;
 }
 .nav-bar {
