@@ -32,7 +32,7 @@
   
   /* == NAVIGATION BAR == */
   
-  #navbar{
+  .navbar{
     position:fixed;
     width: var(--fullWidth);
     z-index: var(--nav);
@@ -106,6 +106,13 @@
   
   .menu-toggle{
     display: none;
+  }
+
+  .scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
   }
   
   /* media query for nav */
