@@ -1,0 +1,19 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://maulana2000@bitbucket.org/zahraAfa/landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/zahraAfa/landing-page/issues"
+  },
+  "homepage": "https://bitbucket.org/zahraAfa/landing-page#readme"
+}
