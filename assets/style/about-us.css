@@ -6,3 +6,7 @@
 .about-us .tagline {
   width: 30em;
 }
+
+.tagline h1 {
+  font-size: 1em;
+}

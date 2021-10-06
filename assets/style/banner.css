@@ -1,0 +1,8 @@
+.banner .button {
+  margin-top: 2em;
+}
+
+.banner {
+  flex-direction: column;
+  margin: 0;
+}
