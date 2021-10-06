@@ -116,11 +116,7 @@
   }
   
   /* media query for nav */
-  @media screen and (max-width: 650px){
-    .nav-items{
-      display: none;
-    }
-  
+  @media screen and (max-width: 650px){  
     .menu-toggle{
       display: flex;
       flex-direction: column;
@@ -168,3 +164,11 @@
       transform: scale(0);
     }
   }
+
+  /* Media query navbar mobile */
+  @media screen and (max-width: 650px){
+    .nav-items{
+        flex-direction: row;
+    }
+  }
+
