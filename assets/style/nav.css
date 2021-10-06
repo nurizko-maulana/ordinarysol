@@ -31,7 +31,7 @@ body {
 
 /* == NAVIGATION BAR == */
 
-.navbar {
+#navbar {
   position: fixed;
   width: var(--fullWidth);
   z-index: var(--nav);
