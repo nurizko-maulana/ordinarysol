@@ -11,6 +11,7 @@ img {
 .nav-button {
   margin-left: 10em;
   font-weight: 900;
+  transition: 0.3s;
 }
 .title-logo img {
   width: 5em;

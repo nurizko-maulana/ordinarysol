@@ -75,17 +75,3 @@ body {
   color: var(--bgWhite);
   font-weight: 100;
 }
-
-.tagline{
-  border: 1px solid red;
-}
-
-.about-us{
-  border: 1px solid red;
-}
-
-.about-us-container{
-  display: flex;
-  flex-direction: row;
-  border: 1px solid red;
-}
