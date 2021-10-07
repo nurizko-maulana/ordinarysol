@@ -1,3 +1,7 @@
+img {
+  pointer-events: none;
+}
+
 /* == NAVIGATION BAR == */
 .nav-wrap {
   display: flex;
