@@ -32,6 +32,8 @@ img {
 .nav-transparent {
   background-color: transparent;
   color: var(--bgWhite);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
 }
 
 .nav-container {
