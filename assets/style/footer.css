@@ -1,3 +1,8 @@
+:root {
+    /* Colors */
+    --colorFooter: #000000;
+  }
+
 .footer-container{
     display: flex;
     background-color: var(--bgGreen);
@@ -32,9 +37,12 @@
 }
 
 .footer-separator{
-    background-color: var(--bgWhite);
+    background-color: var(--colorFooter);
     height: 1px;
-    margin: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    opacity: 0.5;
+    /* width: 30px; */
 }
 
 .footer-items{
@@ -64,14 +72,14 @@
 
 .footer-joinus {
     margin: auto;
-    color: var(--bgWhite);
+    color: var(--colorFooter);
     font-weight:600;
     margin-bottom: 10px;
 }
 
 .footer-copyright{
     display: flex;
-    color: var(--bgWhite);
+    color: var(--colorFooter);
     margin: auto;
     justify-content: center;
     background-color: var(--bgGreen);
