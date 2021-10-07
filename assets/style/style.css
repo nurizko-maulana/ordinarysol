@@ -47,7 +47,7 @@ body {
   border: 1 red;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: var(--bgWhite);
 }
 
 .snap-scroll {
@@ -56,12 +56,12 @@ body {
 
 .ordinary-text {
   box-sizing: border-box;
-  color: white;
+  color: var(--bgWhite);
   font-weight: 900;
   padding: 0.1rem;
 }
 .solana-text {
   box-sizing: border-box;
-  color: white;
+  color: var(--bgWhite);
   font-weight: 100;
 }
