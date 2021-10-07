@@ -12,6 +12,7 @@ img {
   margin-left: 10em;
   font-weight: 900;
   transition: 0.3s;
+  background-color: var(--bgPink);
 }
 .title-logo img {
   width: 5em;
