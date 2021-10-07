@@ -16,6 +16,10 @@
   /* Z index */
   --nav: 100;
 }
+@font-face {  
+  font-family: 'moon';
+  src: url('assets/fonts/Moon2.0-Regular.otf') format("opentype");
+}
 
 * {
   margin: 0;
@@ -34,6 +38,7 @@ body {
 
   background-color: black;
 }
+
 .container {
   height: 100vh;
   overflow-y: auto;
@@ -54,14 +59,33 @@ body {
   scroll-snap-align: start;
 }
 
+.section h1{
+  font-family: 'moon';
+}
+
 .ordinary-text {
   box-sizing: border-box;
   color: var(--bgWhite);
   font-weight: 900;
   padding: 0.1rem;
 }
+
 .solana-text {
   box-sizing: border-box;
   color: var(--bgWhite);
   font-weight: 100;
+}
+
+.tagline{
+  border: 1px solid red;
+}
+
+.about-us{
+  border: 1px solid red;
+}
+
+.about-us-container{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
 }
