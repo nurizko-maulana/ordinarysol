@@ -1,0 +1,16 @@
+.rarity {
+  flex-direction: column;
+  justify-content: center;
+}
+.rarity h1 {
+  margin-bottom: 1.5em;
+  border-radius: 3em;
+}
+.rarity img {
+  width: 10em;
+  border-radius: 1em;
+}
+
+.wrap-image {
+  display: block;
+}
