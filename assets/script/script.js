@@ -1,23 +1,57 @@
 $(document).ready(function () {
-    // var prevScrollpos = window.pageYOffset;
-    // window.onscroll = function () {
-    //   var currentScrollPos = window.pageYOffset;
-    //   if (prevScrollpos > currentScrollPos) {
-    //   //   document.getElementById("navbar").style.top = "0";
-    //       $("#navbar").css({ top: '0px' });
-    //   } else {
-    //       $("#navbar").css({ top: '-70px' });
-    //   }
-    //   prevScrollpos = currentScrollPos;
-    // };
-  var lasScrollTop = 0;
-  navbar = document.getElementById("navbar");
-  window.addEventListener(scroll, function () {
-    var scrollTop = this.window.pageYOffset || this.docume.scrollTop;
-    if (scrollTop > lasScrollTop) {
-      navbar.style.top = "-70px";
+  // var prevScrollpos = window.pageYOffset;
+  // window.onscroll = function () {
+  //   var currentScrollPos = window.pageYOffset;
+  //   if (prevScrollpos > currentScrollPos) {
+  //     alert("up");
+  //   //   document.getElementById("navbar").style.top = "0";
+  //       // $("#navbar").css({ top: '0px' });
+  //       // $("#navbar").toggleClass("top-0");
+  //   } else {
+  //       // $("#navbar").css({ top: '-70px' });
+  //       alert("down");
+  //       // $("#navbar").toggleClass("top-70");
+  //   }
+  //   prevScrollpos = currentScrollPos;
+  // };
+
+
+  var prevScrollpos = $('.container').pageYOffset;
+  $('.container').onscroll = function () {
+    var currentScrollPos = $('.container').pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      alert("up");
+    //   document.getElementById("navbar").style.top = "0";
+        // $("#navbar").css({ top: '0px' });
+        // $("#navbar").toggleClass("top-0");
     } else {
-      navbar.style.top = "0px";
+        // $("#navbar").css({ top: '-70px' });
+        alert("down");
+        // $("#navbar").toggleClass("top-70");
     }
-  });
+    prevScrollpos = currentScrollPos;
+  };
+  
+  // $('.container').scroll(function () {
+  //   var $nav = $(".nav-container");
+  //   if ($(this).scrollTop() > $nav.height()){
+  //     // if ($(this).scrollY >= 160){
+  //     alert("aaa");
+  //     $nav.toggleClass("nav-color");
+  //     $nav.toggleClass("nav-transparent");
+  //   }
+    
+    
+  // });
+
+  // var lasScrollTop = 0;
+  // navbar = document.getElementById("navbar");
+  // window.addEventListener(scroll, function () {
+  //   var scrollTop = this.window.pageYOffset || this.document.scrollTop;
+  //   if (scrollTop > lasScrollTop) {
+  //     navbar.style.top = "-70px";
+  //   } else {
+  //     navbar.style.top = "0px";
+  //   }
+  // });
 });

@@ -19,7 +19,7 @@ img {
   position: fixed;
   width: var(--fullWidth);
   z-index: var(--nav);
-  top: 0;
+  top: 0px;
   display: block;
   transition: top 0.3s;
 }
@@ -31,6 +31,7 @@ img {
 
 .nav-transparent {
   background-color: transparent;
+  color: var(--bgWhite);
 }
 
 .nav-container {
@@ -56,13 +57,14 @@ img {
   list-style: none !important;
 }
 .nav-items li {
-  background-color: var(--bgGreen);
+  /* background-color: var(--bgGreen); */
   margin: 0 auto;
 }
 
 .nav-items li a {
   padding: 20px 15px;
   font-size: 0.9em;
+  font-weight: 500;
   color: var(--bgWhite);
 }
 
@@ -72,9 +74,15 @@ img {
   border-radius: 30px;
   transition: 0.4s;
 }
-.nav-items li :hover,
+.nav-color .nav-items li :hover,
 .nav-items li a:active {
   color: var(--bgBlack);
+  /* font-weight: 500; */
+  transition: 0.8s;
+}
+.nav-transparent .nav-items li :hover,
+.nav-items li a:active {
+  color: var(--bgGreen);
   /* font-weight: 500; */
   transition: 0.8s;
 }
