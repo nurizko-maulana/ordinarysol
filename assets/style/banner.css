@@ -1,5 +1,6 @@
 .banner .button {
   margin-top: 2em;
+  transition: 0.3s;
 }
 
 .banner {

@@ -1,3 +1,7 @@
+img {
+  pointer-events: none;
+}
+
 /* == NAVIGATION BAR == */
 .nav-wrap {
   display: flex;
@@ -7,6 +11,8 @@
 .nav-button {
   margin-left: 10em;
   font-weight: 900;
+  transition: 0.3s;
+  background-color: var(--bgPink);
 }
 .title-logo img {
   width: 5em;
@@ -15,7 +21,7 @@
   position: fixed;
   width: var(--fullWidth);
   z-index: var(--nav);
-  top: 0;
+  top: 0px;
   display: block;
   transition: top 0.3s;
 }
@@ -27,6 +33,9 @@
 
 .nav-transparent {
   background-color: transparent;
+  color: var(--bgWhite);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
 }
 
 .nav-container {
@@ -35,6 +44,10 @@
 
 .title-logo {
   font-size: 1.1em;
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  transform: translate(-50%, -50%);
 }
 
 .nav-items {
@@ -52,13 +65,14 @@
   list-style: none !important;
 }
 .nav-items li {
-  background-color: var(--bgGreen);
+  /* background-color: var(--bgGreen); */
   margin: 0 auto;
 }
 
 .nav-items li a {
   padding: 20px 15px;
   font-size: 0.9em;
+  font-weight: 500;
   color: var(--bgWhite);
 }
 
@@ -68,9 +82,15 @@
   border-radius: 30px;
   transition: 0.4s;
 }
-.nav-items li :hover,
+.nav-color .nav-items li :hover,
 .nav-items li a:active {
   color: var(--bgBlack);
+  /* font-weight: 500; */
+  transition: 0.8s;
+}
+.nav-transparent .nav-items li :hover,
+.nav-items li a:active {
+  color: var(--bgGreen);
   /* font-weight: 500; */
   transition: 0.8s;
 }

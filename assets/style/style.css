@@ -6,6 +6,8 @@
   --bgWhite: #ffffff;
   --bgGreen: #48a96c;
   --bgGreenHover: #34774d;
+  --bgPink: #EC6D7B;
+  --bgPinkHover: #963d47;
 
   /* Width */
   --fullWidth: 100vw;
@@ -15,6 +17,10 @@
 
   /* Z index */
   --nav: 100;
+}
+@font-face {  
+  font-family: 'moon';
+  src: url('assets/fonts/Moon2.0-Regular.otf') format("opentype");
 }
 
 * {
@@ -34,6 +40,7 @@ body {
 
   background-color: black;
 }
+
 .container {
   height: 100vh;
   overflow-y: auto;
@@ -47,22 +54,27 @@ body {
   border: 1 red;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: var(--bgWhite);
 }
 
 .snap-scroll {
   scroll-snap-align: start;
 }
 
+.section h1{
+  font-family: 'moon';
+}
+
 .ordinary-text {
   box-sizing: border-box;
-  color: white;
+  color: var(--bgWhite);
   font-weight: 900;
   padding: 0.1rem;
 }
+
 .solana-text {
   box-sizing: border-box;
-  color: white;
+  color: var(--bgWhite);
   font-weight: 100;
 }
 

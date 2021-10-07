@@ -1,4 +1,4 @@
-.button {
+.buttongreen {
   display: block;
   color: white;
   /* border: 1px solid green; */
@@ -7,7 +7,21 @@
   background-color: var(--bgGreen);
 }
 
-.button:hover {
+.buttonpink {
+  display: block;
+  color: white;
+  /* border: 1px solid green; */
+  border-radius: 2em;
+  padding: 0.5em 1em 0.5em 1em;
+  background-color: var(--bgPink);
+}
+
+.buttongreen:hover {
+  background-color: var(--bgGreenHover);
+  cursor: pointer;
+}
+
+.buttonpink:hover {
   background-color: var(--bgGreenHover);
   cursor: pointer;
 }

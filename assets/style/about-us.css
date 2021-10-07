@@ -1,12 +1,28 @@
 .about-us img {
   width: 10em;
+  height: 10em;
   border-radius: 2em;
 }
 
+.about-us{
+  background: rgb(0,0,0);
+background: linear-gradient(42deg, rgba(0,0,0,1) 0%, rgba(72,169,108,1) 100%, rgba(0,212,255,1) 100%);
+}
+
 .about-us .tagline {
-  width: 30em;
+  width: 40em;
+  margin-right: 40px;
 }
 
 .tagline h1 {
+  font-size: 2em;
+}
+
+.about-us-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.about-us p{
   font-size: 1em;
 }
