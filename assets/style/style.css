@@ -6,7 +6,7 @@
   --bgWhite: #ffffff;
   --bgGreen: #48a96c;
   --bgGreenHover: #34774d;
-  --bgPink: #EC6D7B;
+  --bgPink: #ec6d7b;
   --bgPinkHover: #963d47;
 
   /* Width */
@@ -18,9 +18,9 @@
   /* Z index */
   --nav: 100;
 }
-@font-face {  
-  font-family: 'moon';
-  src: url('assets/fonts/Moon2/Moon2.0-Regular.otf') format("opentype");
+@font-face {
+  font-family: "moon";
+  src: url("assets/fonts/Moon2/Moon2.0-Regular.otf") format("opentype");
 }
 @font-face {  
   font-family: 'moon';
@@ -70,8 +70,8 @@ body {
   scroll-snap-align: start;
 }
 
-.section h1{
-  font-family: 'moon';
+.section h1 {
+  font-family: "moon";
 }
 
 .ordinary-text {
