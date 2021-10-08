@@ -71,7 +71,7 @@ body {
 }
 
 .section h1 {
-  font-family: "moon";
+  font-family: "moon"!important;
 }
 
 .ordinary-text {
