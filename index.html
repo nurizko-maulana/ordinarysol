@@ -29,6 +29,9 @@
 </head>
 
 <body>
+  <div class="page-loader">
+    <img class="loading-image" src="assets/gif/OS-page-loader.gif" alt="Loading..." />
+  </div>
   <nav id="navbar" >
     <div class="nav-container nav-transparent">
       <div class="nav-body">
@@ -58,7 +61,7 @@
       </div>
     </div>
   </nav>
-  <div class="container">
+  <div class="container" id="content">
     <div class="section snap-scroll banner" id="mint-section">
       <h1 class="ordinary-text">Ordinary</h1>
       <h1 class="solana-text">Solana</h1>
@@ -116,6 +119,28 @@
     </div>
     <div class="section snap-scroll" id="team-section">
       <h1>Team</h1>
+      <div class="team-container">
+        <div class="members">
+          <div class="member-1-container">
+            <div class="member-title">City Manager</div>
+            <div class="member-pic"></div>
+            <div class="member-name"></div>
+            <div class="member-social"></div>
+          </div>
+          <div class="member-2-container">
+            <div class="member-title">Mayor</div>
+            <div class="member-pic"></div>
+            <div class="member-name">gaharza</div>
+            <div class="member-social"></div>
+          </div>
+          <div class="member-3-container">
+            <div class="member-title">City Manager</div>
+            <div class="member-pic"></div>
+            <div class="member-name"></div>
+            <div class="member-social"></div>
+          </div>
+        </div>
+      </div>
     </div>
     <footer class="snap-scroll">
       <div class="footer-container">
@@ -138,6 +163,7 @@
   </div>
 
   <script src="assets/script/script.js"></script>
+  <script src="assets/script/page-loader.js"></script>
 </body>
 
 </html>
