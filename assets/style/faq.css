@@ -36,22 +36,21 @@
   transition: max-height 0.2s ease-out;
 }
 
-.faq-container{
-    width: 80vw;
+.faq-container {
+  width: 80vw;
 }
 
-.faq-panel p{
-    font-weight: 500;
-    padding-bottom: 50px;
-    padding-top: 20px;
+.faq-panel p {
+  font-weight: 500;
+  padding-bottom: 50px;
+  padding-top: 20px;
 }
 
-.faq-container h1{
-    position: relative;
-    display: block;
-    text-align: center;
-    /* margin-bottom: 50px; */
-    z-index: 50;
-    top: -100px;
-
+.faq-container h1 {
+  position: relative;
+  display: block;
+  text-align: center;
+  /* margin-bottom: 50px; */
+  z-index: 50;
+  top: -100px;
 }

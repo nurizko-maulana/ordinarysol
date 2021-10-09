@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // Hide navbar when scrolling down
-  
+
   var lastScrollTop = 0;
   $(".container").on("scroll", function (event) {
     var st = $(this).scrollTop();
