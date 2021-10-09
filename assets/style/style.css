@@ -50,7 +50,7 @@
   text-align: center;
   background-color: var(--bgBlack);
   z-index: 1000;
-  transition: 2s;
+  transition: 2s ease;
 }
 
 .loading-image {
@@ -60,7 +60,7 @@
   transform: translate(-50%, -50%);
   z-index: 1000;
   height: 100px;
-  transition: 2s;
+  transition: 2s ease;
 }
 
 body {
