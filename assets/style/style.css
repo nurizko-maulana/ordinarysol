@@ -22,13 +22,13 @@
   font-family: "moon";
   src: url("../fonts/Moon2/Moon2.0-Regular.otf") format("opentype");
 }
-@font-face {  
-  font-family: 'moon bold';
-  src: url('../fonts/Moon2/Moon2.0-Bold.otf') format("opentype");
+@font-face {
+  font-family: "moon bold";
+  src: url("../fonts/Moon2/Moon2.0-Bold.otf") format("opentype");
 }
-@font-face {  
-  font-family: 'moon light';
-  src: url('../fonts/Moon2/Moon2.0-Light.otf') format("opentype");
+@font-face {
+  font-family: "moon light";
+  src: url("../fonts/Moon2/Moon2.0-Light.otf") format("opentype");
 }
 
 * {
@@ -88,6 +88,7 @@ body {
   justify-content: center;
   align-items: center;
   color: var(--bgWhite);
+  padding: 0px var(--marginLg);
 }
 
 .snap-scroll {
@@ -95,7 +96,7 @@ body {
 }
 
 .section h1 {
-  font-family: "moon bold"!important;
+  font-family: "moon bold" !important;
   letter-spacing: 0.1em;
 }
 
@@ -114,6 +115,6 @@ body {
 
 @media screen and (max-width: 650px) {
   .section {
-    padding: var(--marginSm);
+    padding: 0px var(--marginSm);
   }
 }

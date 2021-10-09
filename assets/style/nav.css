@@ -121,6 +121,13 @@ img {
 
 /* media query for nav */
 @media screen and (max-width: 650px) {
+  .nav-wrap .buttonpink {
+    margin-right: 1em;
+  }
+
+  .nav-sections {
+    justify-content: end;
+  }
   .nav-button {
     margin-left: 0;
     font-weight: 900;
@@ -167,6 +174,7 @@ img {
 
   .menu-toggle span:nth-child(4) {
     transform-origin: 0 100%;
+    margin-bottom: 0;
   }
 
   .menu-toggle input:checked ~ span:nth-child(2) {

@@ -6,11 +6,22 @@
   margin-bottom: 1.5em;
   border-radius: 3em;
 }
-.rarity img {
+.rarity-card img {
   width: 10em;
-  border-radius: 1em;
+  border-radius: 1em 1em 0em 0em;
 }
 
 .wrap-image {
-  display: block;
+  display: flex;
+}
+.rarity-card {
+  border-radius: 1em;
+  margin-right: 1em;
+  height: 13em;
+  background-color: var(--bgPink);
+  text-align: center;
+}
+
+.rarity-card h3 {
+  margin-top: 0.2em;
 }
