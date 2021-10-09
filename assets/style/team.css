@@ -1,0 +1,32 @@
+.team-container{
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    border: 1px solid red;
+}
+
+.team-container h1{
+    text-align: center;
+}
+
+.members{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.member{
+    border: 1px solid slateblue;
+    text-align: center;
+}
+
+.member-pic img{
+    height: 150px;
+}
+
+.member-title{
+    color: var(--bgOrange);
+    font-family: "moon bold";
+} 
