@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 85vw;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .team-container h1 {
@@ -12,21 +12,52 @@
 .members {
   display: flex;
   flex-direction: row;
-  border: 1px solid red;
-  justify-content: space-around;
+  /* border: 1px solid red; */
+  justify-content: center;
   align-items: center;
 }
 
 .member {
-  border: 1px solid slateblue;
+  border: 1px solid var(--bgWhite);
   text-align: center;
+  background-color: var(--bgBlack);
+  background-size: cover;
+  padding: 30px;
+  border-radius: 20px;
 }
 
 .member-pic img {
   height: 150px;
+  border-radius: 20px;
 }
 
 .member-title {
   color: var(--bgOrange);
   font-family: "moon bold";
+}
+
+.member-name {
+  color: var;
+}
+
+.member-1-container {
+  transform: rotate(-10deg);
+  position: relative;
+  z-index: 2;
+  top: 25px;
+  right: 20px;
+}
+
+.member-2-container {
+  position: relative;
+  z-index: 3;
+  top: 0px;
+}
+
+.member-3-container {
+  transform: rotate(10deg);
+  position: relative;
+  z-index: 2;
+  top: 25px;
+  left: 20px;
 }
