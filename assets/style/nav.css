@@ -15,7 +15,7 @@ img {
   background-color: var(--bgPink);
 }
 .title-logo img {
-  width: 5em;
+  width: 9em;
 }
 #navbar {
   position: fixed;

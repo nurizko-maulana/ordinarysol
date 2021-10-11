@@ -1,7 +1,8 @@
 .about-us img {
-  width: 10em;
-  height: 10em;
+  width: 15em;
+  height: 15em;
   border-radius: 2em;
+  margin-right: 3em;
 }
 
 .about-us {
@@ -17,6 +18,9 @@
 .about-us .tagline {
   max-width: 40em;
   margin-right: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .tagline h1 {
