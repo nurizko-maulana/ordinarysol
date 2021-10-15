@@ -3,6 +3,10 @@
   --colorFooter: #000000;
 }
 
+#footer-section {
+  background-color: var(--bgGreen);
+}
+
 .footer-items a {
   color: #000;
   cursor: pointer;
@@ -10,9 +14,9 @@
 
 .footer-container {
   display: flex;
-  background-color: var(--bgGreen);
-  height: 300px;
-  /* width: 100vw; */
+  /* background-color: var(--bgGreen); */
+  /* height: 100vh;
+  width: 100vw; */
   align-items: center;
   justify-content: center;
 }

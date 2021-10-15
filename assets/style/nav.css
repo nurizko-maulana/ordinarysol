@@ -85,7 +85,8 @@ img {
   /* background-color: var(--bgGreenHover); */
   height: 35px;
   border-radius: 30px;
-  transition: 0.4s;
+  color: var(--bgPink);
+  transition: 0.2s;
 }
 .nav-color .nav-items li :hover,
 .nav-items li a:active {
