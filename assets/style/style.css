@@ -39,6 +39,12 @@
   display: none;
 }
 
+.content {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
 .page-loader {
   position: fixed;
   /* position: absolute; */
@@ -76,7 +82,9 @@ body {
 }
 
 .container {
+  position: absolute;
   height: 100vh;
+  width: 100vw;
   overflow-y: auto;
   scroll-snap-type: y mandatory;
   -webkit-overflow-scrolling: touch;

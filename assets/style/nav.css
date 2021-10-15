@@ -19,6 +19,7 @@ img {
 }
 #navbar {
   position: fixed;
+  top: 50vw;
   width: var(--fullWidth);
   z-index: var(--nav);
   top: 0px;
@@ -51,12 +52,17 @@ img {
 }
 
 .nav-items {
+  position: absolute;
   display: flex;
-  margin: 0;
+  margin-left: 1em;
   padding: 0;
-  align-items: center;
+  top: 25vh;
+  z-index: 100;
+  align-items: start;
+  flex-direction: column;
+  padding: var(--marginLg) 0;
   /* border: 1px solid red; */
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .nav-items li,
@@ -66,11 +72,10 @@ img {
 }
 .nav-items li {
   /* background-color: var(--bgGreen); */
-  margin: 0 auto;
+  margin-bottom: 1em;
 }
 
 .nav-items li a {
-  padding: 20px 15px;
   font-size: 0.9em;
   font-weight: 500;
   color: var(--bgWhite);
@@ -119,15 +124,16 @@ img {
   transition: all 0.3s ease-in-out;
 }
 
+.nav-sections {
+  justify-content: end;
+}
+
 /* media query for nav */
 @media screen and (max-width: 650px) {
   .nav-wrap .buttonpink {
     margin-right: 1em;
   }
 
-  .nav-sections {
-    justify-content: end;
-  }
   .nav-button {
     margin-left: 0;
     font-weight: 900;

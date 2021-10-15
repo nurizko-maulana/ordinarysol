@@ -2,13 +2,14 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .rarity h1 {
   margin-bottom: 1.5em;
   border-radius: 3em;
 }
 .rarity-card img {
   width: 10em;
-  border-radius: 1em 1em 0em 0em;
+  border-radius: 0.2em 0.2em 0.2em 0.2em;
 }
 
 .wrap-image {
@@ -18,10 +19,13 @@
   border-radius: 1em;
   margin-right: 1em;
   height: 13em;
-  background-color: var(--bgPink);
+  /* background-color: var(--bgPink); */
   text-align: center;
 }
 
 .rarity-card h3 {
-  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+.rarity-card h3 span {
+  display: block;
 }
