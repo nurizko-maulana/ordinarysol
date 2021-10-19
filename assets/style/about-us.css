@@ -17,7 +17,6 @@
 
 .about-us .tagline {
   max-width: 40em;
-  margin-right: 40px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -34,4 +33,18 @@
 
 .about-us p {
   font-size: 1em;
+}
+@media screen and (max-width: 650px) {
+  .about-us-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-us .tagline {
+    align-items: center;
+  }
+  .about-us img {
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
 }

@@ -129,6 +129,7 @@ img {
 @media screen and (max-width: 650px) {
   .nav-wrap .buttonpink {
     margin-right: 1em;
+    display: none;
   }
 
   .nav-button {

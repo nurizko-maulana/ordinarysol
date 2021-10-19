@@ -29,3 +29,13 @@
 .rarity-card h3 span {
   display: block;
 }
+@media screen and (max-width: 650px) {
+  .wrap-image {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1em;
+  }
+  .rarity-card {
+    margin-right: 0;
+  }
+}

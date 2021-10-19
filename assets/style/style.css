@@ -9,6 +9,7 @@
   --bgPink: #ec6d7b;
   --bgPinkHover: #963d47;
   --bgOrange: #f58b1f;
+  --swiper-navigation-color: #ec6d7b;
 
   /* Width */
   --fullWidth: 100vw;
@@ -19,6 +20,7 @@
   /* Z index */
   --nav: 100;
 }
+
 @font-face {
   font-family: "moon";
   src: url("../fonts/Moon2/Moon2.0-Regular.otf") format("opentype");
@@ -119,5 +121,9 @@ body {
 @media screen and (max-width: 650px) {
   .section {
     padding: 0px var(--marginSm);
+  }
+
+  .container {
+    scroll-snap-type: none;
   }
 }

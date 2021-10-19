@@ -17,6 +17,10 @@
   <link rel="stylesheet" href="assets/style/faq.css">
   <link rel="stylesheet" href="assets/style/rarity.css">
   <link rel="stylesheet" href="assets/style/team.css">
+  <link rel="stylesheet" href="assets/style/partner.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <!-- Style end -->
 
   <!-- Favicon start -->
@@ -82,7 +86,7 @@
         <div class="about-us-container">
           <img src="assets/images/ordinary-6.jpeg" alt="">
           <div class="tagline">
-            <h1>Ordinary Sol</h1>
+            <h1 data-aos="fade-in">Ordinary Sol</h1>
             <br>
             <p>Ordinary Solana is a collection of Ordinary People, the NFT is handpicked 1/1 and designed handmade
               with
@@ -117,8 +121,19 @@
       <div class="section snap-scroll" id="roadmap-section">
         <h1>Roadmap</h1>
       </div>
-      <div class="section snap-scroll" id="partners-section">
+      <div class="section snap-scroll partner" id="partners-section">
         <h1>Partners and Collaborators</h1>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="assets/images/ordinary-2.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/ordinary-3.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/ordinary-4.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/ordinary-6.jpeg" alt=""></div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="buttongreen">Contact Us</div>
       </div>
       <div class="section snap-scroll" id="FAQ-section">
         <div class="faq-container">
@@ -189,7 +204,7 @@
                 <img src="assets/images/OS logos/Logo_Ordinary Sol_01.png" alt="Ordinary Sol Logo">
               </div>
               <div class="footer-separator"></div>
-              <div class="footer-joinus">JOIN US</div>
+              <!-- <div class="footer-joinus">JOIN US</div> -->
               <div class="footer-items">
                 <a href="https://discord.gg/CFmXS2f9"><img class="discord-footer-logo"
                     src="assets/images/discord logos/Discord-Logo-Black.svg"></img></a>
@@ -197,7 +212,7 @@
                     src="assets/images/twitter logos/2021 Twitter logo - black.png"></img></a>
               </div>
             </div>
-            <div class="footer-copyright">Copyright © 2021 Ordinary Solana - All rights served</div>
+            <!-- <div class="footer-copyright">Copyright © 2021 Ordinary Solana - All rights served</div> -->
           </div>
         </div>
       </footer>
@@ -208,12 +223,19 @@
   <!-- Script start -->
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
   <!-- Script end -->
   <!-- custom script -->
   <script src="assets/script/script.js"></script>
   <script src="assets/script/page-loader.js"></script>
   <script src="assets/script/faq.js"></script>
   <script src="assets/script/animation.js"></script>
+  <script src="assets/script/swiper.js"></script>
   <!-- custom script -->
 </body>
 

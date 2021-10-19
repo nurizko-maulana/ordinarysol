@@ -1,0 +1,24 @@
+.partner {
+  flex-direction: column;
+}
+.swiper {
+  width: 80%;
+  height: 300px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner img {
+  width: 10em;
+}
+
+@media screen and (max-width: 650px) {
+  .partner img {
+    width: 10em;
+    /* height: 12em; */
+  }
+}
