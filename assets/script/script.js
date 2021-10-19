@@ -6,7 +6,7 @@ $(document).ready(function () {
     var st = $(this).scrollTop();
     if (st > lastScrollTop) {
       // downscroll code
-      $("#navbar").css({ top: "-80px" });
+      $("#navbar").css({ top: "-90px" });
     } else {
       // upscroll code
       $("#navbar").css({ top: "0px" });

@@ -6,9 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ordinary Solana</title>
-  <!-- Script start -->
-  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-  <!-- Script end -->
+
   <!-- Style start -->
   <link rel="stylesheet" href="assets/style/style.css" />
   <link rel="stylesheet" href="assets/style/nav.css" />
@@ -63,16 +61,18 @@
       </div>
     </div>
   </nav>
+
   <div class="content">
     <ul class="nav-items">
       <li><a href="#au-section" class="nav-aboutus">About Us</a></li>
       <li><a href="#rarity-section" class="nav-rarity">Rarity</a></li>
       <li><a href="#roadmap-section" class="nav-roadmap">Road Map</a></li>
-      <li><a href="#partners-section" class="nav-roadmap">Partners</a></li>
+      <li><a href="#partners-section" class="nav-partner">Partners</a></li>
       <li><a href="#FAQ-section" class="nav-faq">FAQ</a></li>
-      <li><a href="#team-section" class="nav-roadmap">Team</a></li>
+      <li><a href="#team-section" class="nav-team">Team</a></li>
     </ul>
-    <div class="container" id="content">
+
+    <main class="container" id="content">
       <div class="section snap-scroll banner" id="mint-section">
         <h1 class="ordinary-text">Ordinary</h1>
         <h1 class="solana-text">Solana</h1>
@@ -94,7 +94,7 @@
         </div>
       </div>
       <div class="section rarity snap-scroll" id="rarity-section">
-        <h1>Rarity</h1>
+        <h1 id="rarity-title">Rarity</h1>
         <div class="wrap-image">
           <div class="rarity-card">
             <h3>Ordinary <span>87.5%</span></h3>
@@ -201,13 +201,20 @@
           </div>
         </div>
       </footer>
-    </div>
+    </main>
   </div>
   </div>
 
+  <!-- Script start -->
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <!-- Script end -->
+  <!-- custom script -->
   <script src="assets/script/script.js"></script>
   <script src="assets/script/page-loader.js"></script>
   <script src="assets/script/faq.js"></script>
+  <script src="assets/script/animation.js"></script>
+  <!-- custom script -->
 </body>
 
 </html>
