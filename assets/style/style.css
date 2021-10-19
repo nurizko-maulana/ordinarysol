@@ -39,12 +39,6 @@
   display: none;
 }
 
-.content {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-}
-
 .page-loader {
   position: fixed;
   /* position: absolute; */
