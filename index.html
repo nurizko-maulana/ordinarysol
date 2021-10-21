@@ -8,6 +8,7 @@
   <title>Ordinary Solana</title>
 
   <!-- Style start -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/style/style.css" />
   <link rel="stylesheet" href="assets/style/nav.css" />
   <link rel="stylesheet" href="assets/style/footer.css" />
@@ -18,6 +19,7 @@
   <link rel="stylesheet" href="assets/style/rarity.css">
   <link rel="stylesheet" href="assets/style/team.css">
   <link rel="stylesheet" href="assets/style/partner.css">
+  <link rel="stylesheet" href="assets/style/roadmap.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
   <!-- Style end -->
@@ -38,6 +40,9 @@
 
     gtag('config', 'G-J8Y8RDZQL3');
   </script>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
@@ -108,7 +113,7 @@
             <img src="assets/images/ordinary-3.jpeg" alt="OrdinarySol_2">
           </div>
           <div class="rarity-card">
-            <h3>Legendary <span>4%</span></h3>
+            <h3>Legendary <span>4%</span></h3 >
             <img src="assets/images/ordinary-4.jpeg" alt="OrdinarySol_3">
           </div>
           <div class="rarity-card">
@@ -118,7 +123,12 @@
         </div>
       </div>
       <div class="section snap-scroll" id="roadmap-section">
-        <h1>Roadmap</h1>
+        <div class="roadmap-container">
+          <h1>Roadmap</h1>
+          <div class="roadmap-wrapper">
+            <img class="roadmap-img" src="assets/images/Roadmap.png" alt="" >
+          </div>
+        </div>
       </div>
       <div class="section snap-scroll partner" id="partners-section">
         <h1>Partners and Collaborators</h1>
@@ -243,6 +253,9 @@
   <script src="assets/script/faq.js"></script>
   <script src="assets/script/animation.js"></script>
   <script src="assets/script/swiper.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <!-- custom script -->
 </body>
 
