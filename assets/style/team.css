@@ -83,6 +83,9 @@
   .team-container{
     height: 1200px;
   }
+  #team-section{
+    height: 1200px;
+  }
   .members{
     flex-direction: column;
   }
