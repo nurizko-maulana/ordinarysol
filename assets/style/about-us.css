@@ -34,6 +34,11 @@
 .about-us p {
   font-size: 1em;
 }
+
+#countdown {
+  font-size: 1.5em;
+}
+
 @media screen and (max-width: 650px) {
   .about-us-container {
     flex-direction: column;
