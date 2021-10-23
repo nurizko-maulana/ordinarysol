@@ -20,68 +20,68 @@ const scrollEvent = () => {
   console.log("height", window.innerHeight);
 
   if (content.scrollTop === 0) {
-    nav.style.display = "none";
+    // nav.style.display = "none";
     console.log("ok");
   } else if (content.scrollTop >= window.innerHeight) {
     nav.style.removeProperty("display");
   }
 
   if (content.scrollTop >= window.innerHeight) {
-    nav1.style.color = bgPink;
+    nav1.classList.add("select");
   }
 
   if (
     content.scrollTop < window.innerHeight ||
     content.scrollTop >= window.innerHeight * 2
   ) {
-    nav1.style.removeProperty("color");
+    nav1.classList.remove("select");
   }
 
   if (content.scrollTop >= window.innerHeight * 2) {
-    nav2.style.color = bgPink;
+    nav2.classList.add("select");
   }
 
   if (
     content.scrollTop <= window.innerHeight ||
     content.scrollTop >= window.innerHeight * 3
   ) {
-    nav2.style.removeProperty("color");
+    nav2.classList.remove("select");
   }
   if (content.scrollTop >= window.innerHeight * 3) {
-    nav3.style.color = bgPink;
+    nav3.classList.add("select");
   }
   if (
     content.scrollTop <= window.innerHeight * 2 ||
     content.scrollTop >= window.innerHeight * 4
   ) {
-    nav3.style.removeProperty("color");
+    nav3.classList.remove("select");
   }
   if (content.scrollTop >= window.innerHeight * 4) {
-    nav4.style.color = bgPink;
+    nav4.classList.add("select");
   }
   if (
     content.scrollTop <= window.innerHeight * 3 ||
     content.scrollTop >= window.innerHeight * 5
   ) {
-    nav4.style.removeProperty("color");
+    nav4.classList.remove("select");
   }
   if (content.scrollTop >= window.innerHeight * 5) {
-    nav5.style.color = bgPink;
+    nav5.classList.add("select");
   }
   if (
     content.scrollTop <= window.innerHeight * 4 ||
     content.scrollTop >= window.innerHeight * 6
   ) {
-    nav5.style.removeProperty("color");
+    nav5.classList.remove("select");
   }
   if (content.scrollTop >= window.innerHeight * 6) {
-    nav6.style.color = bgPink;
+    nav6.classList.add("select");
   }
   if (
     content.scrollTop <= window.innerHeight * 5 ||
     content.scrollTop >= window.innerHeight * 7
   ) {
-    nav6.style.removeProperty("color");
+    nav6.classList.remove("select");
   }
 };
 

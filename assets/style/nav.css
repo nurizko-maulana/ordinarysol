@@ -79,27 +79,39 @@ img {
   font-size: 0.9em;
   font-weight: 500;
   color: var(--bgWhite);
+  transition: 0.2s;
 }
 
 .nav-items li :hover {
   /* background-color: var(--bgGreenHover); */
   height: 35px;
   border-radius: 30px;
-  color: var(--bgPink);
+  background-color: var(--bgPink);
+  padding: 0.2em 0.8em;
+  color: white;
   transition: 0.2s;
 }
-.nav-color .nav-items li :hover,
+
+.select {
+  height: 35px;
+  border-radius: 30px;
+  background-color: var(--bgPink);
+  padding: 0.2em 0.8em;
+  color: white;
+}
+/* .nav-color .nav-items li :hover,
 .nav-items li a:active {
   color: var(--bgBlack);
-  /* font-weight: 500; */
+  font-weight: 500;
   transition: 0.8s;
+  background-color: var(--bgPink);
 }
 .nav-transparent .nav-items li :hover,
 .nav-items li a:active {
   color: var(--bgGreen);
-  /* font-weight: 500; */
+  font-weight: 500;
   transition: 0.8s;
-}
+} */
 
 .nav-sections {
   display: flex;
