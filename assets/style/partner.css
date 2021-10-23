@@ -19,54 +19,55 @@
 }
 
 .partner img {
-  width: 100%;
   height: 100%;
-  border-radius: 1em 1em 0 0;
+  border-radius: 1em 0em 0 1em;
 }
 
 .bottom-wrap img {
   width: 2em;
+  height: 2em;
   padding: 0.2em;
 }
 .bottom-wrap p {
   color: #000;
+  margin-bottom: 0.5em;
 }
 
 .bottom-wrap .desc {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 1em;
 }
 
 .desc p {
-  margin-left: 0.2em;
+  margin-left: 1em;
 }
 
 .bottom-wrap .separator {
   color: black;
-  margin-left: 1em;
 }
 
 .logo {
-  padding-top: 0.5em;
   width: 1em;
 }
 
 .partner-card {
-  width: 15em;
+  height: 15em;
   padding: 0em;
   background-color: #fff;
   border-radius: 1em;
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: start;
 }
 
 .partner h3 {
   color: #000;
   position: absolute;
   top: 10px;
+  left: 10px;
   color: white;
 }
 
@@ -77,14 +78,14 @@
 
 .bottom-wrap {
   background-color: black;
-  width: 100%;
+  width: 15em;
+  height: 100%;
   padding: 1em;
   box-sizing: border-box;
   background-color: var(--bgWhite);
-  border-radius: 0 0 1em 1em;
+  border-radius: 0 1em 1em 0em;
   display: flex;
-  justify-content: center;
-
+  justify-content: start;
   flex-direction: column;
 }
 
