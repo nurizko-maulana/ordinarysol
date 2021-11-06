@@ -5,7 +5,7 @@
   margin-right: 3em;
 }
 
-.about-us {
+/* .about-us {
   background: rgb(0, 0, 0);
   background: linear-gradient(
     42deg,
@@ -13,7 +13,7 @@
     rgba(29, 122, 93, 1) 100%,
     rgba(0, 212, 255, 1) 100%
   );
-}
+} */
 
 .circle1 {
   background-color: #ffcd2a;
