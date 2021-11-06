@@ -35,10 +35,10 @@
 }
 
 .divider {
-  height: 8px;
-  width: 20em;
+  height: 5px;
+  width: 27em;
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .circle {

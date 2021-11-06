@@ -10,6 +10,8 @@
   --bgPink: #ec6d7b;
   --bgPinkHover: #963d47;
   --bgOrange: #f58b1f;
+  --bgYellow: #fcb040;
+
   --swiper-navigation-color: #ec6d7b;
 
   /* Width */
@@ -66,6 +68,14 @@
   transition: 2s ease;
 }
 
+.title-divider {
+  height: 20px;
+  width: 20em;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 0.5em;
+}
+
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif, -apple-system, BlinkMacSystemFont,
@@ -75,7 +85,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: black;
+  background-color: var(--bgGreen);
 }
 
 .container {
