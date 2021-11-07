@@ -1,4 +1,4 @@
-.about-us img {
+.about-us-container img {
   width: 25em;
   height: 25em;
   border-radius: 2em;
@@ -15,6 +15,22 @@
   );
 } */
 
+.wrap-about-us {
+  height: 100vh;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.panel {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-x: scroll;
+}
 .circle1 {
   background-color: #ffcd2a;
 }
@@ -67,6 +83,9 @@
 
 .about-us p {
   font-size: 1.2em;
+}
+.about-us {
+  flex-direction: column;
 }
 
 #countdown {

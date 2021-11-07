@@ -10,14 +10,11 @@
 
 .wrap-image {
   display: flex;
-  flex-direction: row;
-  height: 100%;
   margin-top: 3em;
 }
 .rarity-card {
   border-radius: 1em;
-  margin-right: 1em;
-  height: 1em;
+  margin-right: 2em;
   width: 10em;
   /* background-color: var(--bgPink); */
   text-align: center;
@@ -28,6 +25,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .type {
