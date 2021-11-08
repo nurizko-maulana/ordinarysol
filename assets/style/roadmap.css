@@ -19,6 +19,7 @@
   max-width: 100vw;
   overflow-x: scroll;
   cursor: grab;
+  margin-top: 3em;
   /* border: 1px solid red; */
 }
 .roadmap-wrapper .roadmap-img {
