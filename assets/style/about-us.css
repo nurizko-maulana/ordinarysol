@@ -27,7 +27,7 @@
 .panel {
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: -175px;
   right: 0;
   overflow-x: scroll;
 }
