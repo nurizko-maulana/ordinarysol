@@ -13,4 +13,13 @@ $(document).ready(function () {
     }
     lastScrollTop = st;
   });
+
+  $(".close-nav-items").click(function(){
+    $(".nav-items").toggle(close);
+  });
+
+  $('.menu-toggle input').checked(function() {
+    $(".nav-items").toggle(close);
+  });
+
 });
