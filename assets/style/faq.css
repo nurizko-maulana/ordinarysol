@@ -1,39 +1,61 @@
-.faq-accordion {
+.faq-card {
   background-color: var(--bgWhite);
   color: var(--bgGreen);
   cursor: pointer;
   padding: 10px;
   width: 100%;
-  border: none;
+
   text-align: left;
   outline: none;
   font-size: 15px;
   transition: 0.4s;
   border-radius: 1em;
   margin-top: 1em;
-  display: flex;
-  justify-content: space-between;
   border: 0.2em solid black;
 }
 
-.active,
-.faq-accordion:hover {
-  background-color: var(--bgPink);
+.link {
+  color: var(--bgPink);
+  text-decoration: none;
+}
+.link:hover {
+  font-weight: bold;
+}
+.answer {
+  color: black;
+  margin-top: 0.5em;
+  font-size: 1.17em;
+}
+.faq-accordion {
+  border: none;
+  display: flex;
+  justify-content: space-between;
 }
 
-.faq-accordion:after {
-  content: "\002B";
+/* .active,
+.faq-accordion:hover {
+  background-color: var(--bgPink);
+} */
+
+.hide {
+  display: none;
+  transition: 0.2s ease-out;
+}
+
+.faq-accordion .plus-icon {
   color: var(--bgGreen);
   font-weight: bold;
   margin-left: 5px;
 }
-
-.active:after {
-  content: "\2212";
-}
+/* .faq-accordion:after {
+  content: "\002B";
+  color: var(--bgGreen);
+  font-weight: bold;
+  margin-left: 5px;
+} */
 
 .faq-panel {
-  padding: 0 10px;
+  padding: 0 1em;
   background-color: var(--bgWhite);
   max-height: 0;
   overflow: hidden;
@@ -41,25 +63,22 @@
 }
 
 .faq-container {
-  width: 70vw;
   background-color: var(--bgYellow);
   border-radius: 2em;
-  padding: 2em;
+  padding: 4em;
   border: 0.2em solid black;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 .faq-wrap {
-  margin-right: 1em;
+  margin-right: 5em;
 }
 .message-box {
-  width: 18em;
-  height: 5em;
   border: 0.2em solid white;
   border-radius: 1em;
   background-color: #333333;
-  padding: 0.5em;
+  padding: 1em;
 }
 .wrap-faq-character {
   display: flex;

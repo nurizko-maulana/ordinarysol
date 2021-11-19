@@ -9,6 +9,28 @@
   margin: 0;
 }
 
+.landing-banner {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  max-height: 100vh;
+  top: 0;
+}
+
 .mint {
   margin-top: 0.5em;
+}
+
+.sky {
+  width: 100vw;
+  height: 65%;
+  background-color: cadetblue;
+}
+
+.wrap-banner {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
 }

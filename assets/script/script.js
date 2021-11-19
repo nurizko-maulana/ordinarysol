@@ -14,12 +14,12 @@ $(document).ready(function () {
     lastScrollTop = st;
   });
 
-  $(".close-nav-items").click(function(){
-    $(".nav-items").toggle(close);
+  $(".close-nav-items").click(function () {
+    $(".nav-items").toggle(500);
+    $(".menu-toggle");
   });
 
-  $('.menu-toggle input').checked(function() {
-    $(".nav-items").toggle(close);
+  $(".menu-toggle").click(function () {
+    $(".nav-items").toggle(500);
   });
-
 });
