@@ -1,6 +1,7 @@
 var acc = document.getElementsByClassName("faq-card");
 
 for (let i = 0; i < acc.length; i++) {
+  // acc.children[1].classList.toggle("hide");
   acc[i].addEventListener("click", function () {
     this.classList.toggle("active");
     this.children[1].classList.toggle("hide");
