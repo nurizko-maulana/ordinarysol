@@ -4,7 +4,8 @@
 }
 
 #footer-section {
-  background-color: var(--bgGreen);
+  background-color: var(--bgYellow);
+  height: 369px;
 }
 
 .footer-items a {
@@ -14,85 +15,40 @@
 
 .footer-container {
   display: flex;
-  /* background-color: var(--bgGreen); */
-  /* height: 100vh;
-  width: 100vw; */
-  align-items: center;
+  align-items: end;
   justify-content: center;
-}
-
-.footer-body {
-  /* border: 1px solid #a86d6d; */
-  margin: 30px auto;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+  border: 1px solid red;
+  width: 90%;
 }
 
 .footer-sections {
   display: flex;
+  flex-direction: row;
+  /* border: 1px solid red; */
+  margin: auto;
+}
+
+.f-col{
+  display: flex;
   flex-direction: column;
-  /* border: 1px solid red; */
-  margin: auto;
 }
 
-.footer-logo img {
-  width: 7em;
-}
-
-.footer-logo {
-  margin: auto;
-  /* border: 1px solid red; */
-}
-
-.footer-separator {
-  background-color: var(--colorFooter);
-  height: 1px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  opacity: 0.5;
-  /* width: 30px; */
-}
-
-.footer-items {
-  margin: auto;
+.f-row{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 8em;
 }
 
-.discord-footer-logo,
-.twitter-footer-logo {
-  height: 30px;
-  margin: 10px;
-  /* transition: width 2s, height 2s, transform 1s; */
-  transition: all 0.5s ease-in-out;
+.f-nav-link, .f-soc-text{
+  font-family: "Moon";
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none!important;
 }
 
-.footer-items a:hover .discord-footer-logo {
-  transform: rotate(360deg);
-  /* height: 40px; */
-}
-
-.footer-items a:hover .twitter-footer-logo {
-  transform: rotate(360deg);
-  /* height: 40px; */
-}
-
-.footer-joinus {
-  margin: auto;
-  color: var(--colorFooter);
-  font-weight: 500;
-  margin-bottom: 10px;
-}
-
-.footer-copyright {
-  display: flex;
-  color: var(--colorFooter);
-  margin: auto;
-  justify-content: center;
-  background-color: var(--bgGreen);
-  padding: 20px;
-  font-weight: 500;
+.discord-f-logo, 
+.twitter-f-logo, 
+.instagram-f-logo{
+  height: 2.5em;
+  width: auto;
 }
