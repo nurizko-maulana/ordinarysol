@@ -64,3 +64,61 @@
   height: 2.5em;
   width: auto;
 }
+
+@media screen and (max-width: 1096px) {
+  .f-logo-banner{
+    width: 24em;
+    transform: translateY(38px);
+  }
+}
+
+@media screen and (max-width: 1096px) {
+  .f-logo-banner{
+    width: 24em;
+    transform: translateY(38px);
+  }
+  .f-nav-link, .f-soc-text{
+    font-family: "Moon";
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 6px;
+  }
+}
+
+@media screen and (max-width: 906px) {
+  .f-logo-banner{
+    width: 20em;
+    transform: translateY(62px);
+  }
+  .f-nav-link, .f-soc-text{
+    font-family: "Moon";
+    font-size: 25px;
+    line-height: 60px;
+    letter-spacing: 6px;
+  }
+  .discord-f-logo, 
+  .twitter-f-logo, 
+  .instagram-f-logo{
+    height: 2em;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  .f-logo-banner{
+    width: 20em;
+    transform: translateY(62px);
+  }
+  .f-nav-link, .f-soc-text{
+    font-family: "Moon";
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: 6px;
+  }
+  .discord-f-logo, 
+  .twitter-f-logo, 
+  .instagram-f-logo{
+    height: 2em;
+    width: auto;
+  }
+}
