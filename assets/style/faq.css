@@ -71,9 +71,7 @@
   flex-direction: row;
   align-items: center;
 }
-.faq-wrap {
-  margin-right: 5em;
-}
+
 .message-box {
   border: 0.2em solid white;
   border-radius: 1em;
@@ -81,6 +79,8 @@
   padding: 1em;
 }
 .wrap-faq-character {
+  transform: translateX(2em);
+  min-width: 30em;
   display: flex;
   align-items: center;
   flex-direction: column;
