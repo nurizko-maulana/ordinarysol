@@ -59,6 +59,12 @@ img {
   color: var(--bgWhite);
 }
 
+.coming-soon {
+  font-size: 0.6em;
+  color: crimson;
+  align-self: center;
+}
+
 .nav-transparent {
   background-color: transparent;
   color: var(--bgWhite);
@@ -93,7 +99,6 @@ img {
   flex-direction: column;
   padding: var(--marginLg) 0;
   border: 3px solid black;
-  justify-content: center;
   background-color: var(--bgYellow);
   border-bottom-right-radius: 60px; /* 100px of height + 10px of border */
   border-top-right-radius: 60px;
