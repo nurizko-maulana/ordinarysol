@@ -14,6 +14,8 @@ $(document).ready(function () {
     lastScrollTop = st;
   });
 
+  $(".nav-items").hide();
+
   $(".close-nav-items").click(function () {
     $(".nav-items").toggle(500);
     $(".menu-toggle");
