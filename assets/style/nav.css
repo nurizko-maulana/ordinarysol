@@ -260,6 +260,7 @@ img {
   left: -16px;
   top: -20px;
   z-index: 2;
+  cursor: pointer;
 }
 
 .menu-toggle span {
