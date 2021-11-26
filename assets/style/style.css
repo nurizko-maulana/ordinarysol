@@ -45,6 +45,20 @@
   display: none;
 }
 
+.effect-pop{
+  transition: transform 250ms;
+}
+.effect-pop:hover{
+  transform: translateY(-10px);
+}
+
+.effect-slide{
+  transition: transform 250ms;
+}
+.effect-slide:hover{
+  transform: translateX(-10px);
+}
+
 .page-loader {
   position: fixed;
   /* position: absolute; */

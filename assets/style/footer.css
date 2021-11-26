@@ -50,7 +50,7 @@
 
 .f-nav-link, .f-soc-text{
   font-family: "Moon";
-  font-size: 36px;
+  font-size: 30px;
   color: white;
   font-weight: bold;
   text-decoration: none!important;
@@ -63,6 +63,13 @@
 .instagram-f-logo{
   height: 2.5em;
   width: auto;
+}
+
+.f-nav-link:hover{
+  color: #5a5a5a;
+}
+.f-nav-link .coming-soon{
+  letter-spacing: 0.5px;
 }
 
 @media screen and (max-width: 1096px) {

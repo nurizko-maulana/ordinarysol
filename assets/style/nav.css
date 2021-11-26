@@ -60,10 +60,21 @@ img {
 }
 
 .coming-soon {
-  font-size: 0.6em;
+  display: inline-block;
+  font-size: 0.5em;
   color: crimson;
   align-self: center;
+  line-height: 20px;
+  transform: translate(1px, -12px);
 }
+/* .coming-soon {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: crimson;
+  align-self: center;
+  transform: translate(50px, -45px);
+  margin-bottom: 10px;
+} */
 
 .nav-transparent {
   background-color: transparent;
@@ -122,10 +133,11 @@ img {
 
 .nav-items a {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 900;
   color: #5a5a5a;
   transition: 0.2s;
   font-family: "moon";
+  letter-spacing: 2px;
 }
 
 .nav-items li a:hover {
@@ -174,6 +186,19 @@ img {
   font-weight: 500;
   transition: 0.8s;
 } */
+
+.nav-soc-logos{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-discord-logo,
+.nav-twitter-logo,
+.nav-instagram-logo{
+  height: 1.2em;
+  width: auto;
+  margin: 15px 20px 0 0;
+}
 
 .nav-sections {
   display: flex;
@@ -255,7 +280,7 @@ img {
 }
 
 .menu-toggle input:checked ~ span:nth-child(2) {
-  transform: rotate(45deg) translate(1.5px, 1.5px);
+  transform: rotate(45deg) translate(2.8px, 2.8px);
 }
 
 .menu-toggle input:checked ~ span:nth-child(4) {

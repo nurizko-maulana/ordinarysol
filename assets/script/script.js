@@ -17,11 +17,19 @@ $(document).ready(function () {
   $(".nav-items").hide();
 
   $(".close-nav-items").click(function () {
+    $('#checkbox-nav').prop('checked', false);
     $(".nav-items").toggle(500);
     $(".menu-toggle");
+    console.log("clicked")
+    if($("#checkbox-nav").is(":checked")) {
+      console.log("Checked");
+    } else {
+      console.log("Not checked");
+    }
   });
-
+  
   $(".menu-toggle").click(function () {
     $(".nav-items").toggle(500);
+    $('#checkbox-nav').attr('checked', false);
   });
 });

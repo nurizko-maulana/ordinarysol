@@ -18,7 +18,6 @@
   <link rel="stylesheet" href="assets/style/button.css">
   <link rel="stylesheet" href="assets/style/faq.css">
   <link rel="stylesheet" href="assets/style/rarity.css">
-  <link rel="stylesheet" href="assets/style/team.css">
   <link rel="stylesheet" href="assets/style/partner.css">
   <link rel="stylesheet" href="assets/style/roadmap.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
@@ -78,7 +77,7 @@
               </div>
             </a>
             <div class="menu-toggle">
-              <input type="checkbox">
+              <input id="checkbox-nav" type="checkbox">
               <span></span>
               <span></span>
               <span></span>
@@ -92,10 +91,15 @@
   <div class="nav-items">
     <div class="close-nav-items"><i class="fa fa-times" aria-hidden="true"></i></div>
     <a href="index.html" class="nav-item selected">HOME</a>
-    <a href="#" class="nav-item">GALLERY</a>
-    <a href="map.html" class="nav-item">CITY MAP <span class="coming-soon">coming soon</span></a>
+    <a href="#" class="nav-item effect-pop">GALLERY<span class="coming-soon">(coming soon)</span></a>
+    <a href="#" class="nav-item effect-pop">CITY MAP<span class="coming-soon">(coming soon)</span></a>
     <a href="https://docs.google.com/presentation/d/1C0tJjJfWfDrJb3uENaWjT8PdRWUAuyhIEp6FLt6tR28/edit#slide=id.p"
-      class="nav-item">LITEPAPER</a>
+      class="nav-item effect-pop">LITEPAPER</a>
+    <div class="nav-soc-logos">
+      <a href="https://www.discord.com/invite/4X8WrsGB4Q9" class="nav-soc-logo effect-pop"><img class="nav-discord-logo" src="assets/images/discord logos/Discord-Logo-White.svg" alt="Discord"></a>
+      <a href="https://twitter.com/OrdinarySolana" class="nav-soc-logo effect-pop"><img class="nav-twitter-logo" src="assets/images/twitter logos/2021 Twitter logo - white.png" alt="Twitter"></a>
+      <a href="https://www.instagram.com/ordinarysol.nft/" class="nav-soc-logo effect-pop"><img class="nav-instagram-logo" src="assets/images/instagram logos/instagram.png" alt="Instagram"></a>
+    </div>
   </div>
 
   <div class="content">
@@ -113,19 +117,19 @@
           <div class="about-us-container">
             <img class="gif" src="assets/images/gif.gif" alt="">
             <div class="tagline">
-              <h1>NOTHING SPECIAL,</h1>
-              <h1>we are Ordinary</h1>
+              <h1 class="effect-slide">NOTHING SPECIAL,</h1>
+              <h1 class="effect-slide">WE ARE ORDINARY</h1>
               <br>
               <div class="divider">
               </div>
               <p class="description">Ordinary Sol is a collection of Ordinary Solana people designed handmade with
                 generative style, The NFT
                 Design is Handpicked 1/1. The total of the NFT artwork will be limited to 666 Ordinary People. </p>
-              <div class="circle-list">
+              <!-- <div class="circle-list">
                 <div class="circle circle1"></div>
                 <div class="circle circle2"></div>
                 <div class="circle circle3"></div>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="panel-down">
@@ -141,7 +145,7 @@
             <img src="assets/images/Panel OS down.png" alt="panelos">
           </div>
           <div class="rarirty-wraper">
-            <h1 id="rarity-title">RARITY</h1>
+            <h1 id="rarity-title" class="effect-pop">RARITY</h1>
             <div class="title-divider"></div>
             <div class="wrap-image">
               <div class="rarity-card">
@@ -170,12 +174,12 @@
       </div>
       <div class="section snap-scroll" id="roadmap-section">
         <div class="roadmap-container">
-          <h1>ROADMAP</h1>
+          <h1 class="effect-pop">ROADMAP</h1>
           <div class="title-divider"></div>
           <div class="roadmap-wrapper">
             <img class="roadmap-img" src="assets/images/Roadmap.png" alt="">
           </div>
-          <p>Swipe for more >></p>
+          <p class="effect-slide">Swipe for more >></p>
         </div>
       </div>
 
@@ -184,7 +188,7 @@
           <div class="faq-wrap">
             <h1>FAQ</h1>
 
-            <div class="faq-card">
+            <div class="faq-card effect-pop">
               <div class="faq-accordion faq-acc-1">
                 <h3>Q: When is the mint?</h3>
                 <div class="plus-icon">+</div>
@@ -192,7 +196,7 @@
               <p class="answer">A: Around December 2021</p>
             </div>
 
-            <div class="faq-card">
+            <div class="faq-card effect-pop">
               <div class="faq-accordion faq-acc-1">
                 <h3>Q: What is the price of Ordinary Sol?</h3>
                 <div class="plus-icon">+</div>
@@ -200,7 +204,7 @@
               <p class="answer">A: You could get your own Ordinary People for only <b>0.75 SOL</b>!</p>
             </div>
 
-            <div class="faq-card">
+            <div class="faq-card effect-pop">
               <div class="faq-accordion faq-acc-1">
                 <h3>Q: What makes Ordinary Sol special?</h3>
                 <div class="plus-icon">+</div>
@@ -210,7 +214,7 @@
                 We do not want to make over deliver, we are going to develop little by little.</p>
             </div>
 
-            <div class="faq-card">
+            <div class="faq-card effect-pop">
               <div class="faq-accordion faq-acc-1">
                 <h3>Q: What is your sales distribution?</h3>
                 <div class="plus-icon">+</div>
@@ -222,7 +226,7 @@
                 Projects.</p>
             </div>
 
-            <div class="faq-card">
+            <div class="faq-card effect-pop">
               <div class="faq-accordion faq-acc-1">
                 <h3>Q: What are you planning after the drop?</h3>
                 <div class="plus-icon">+</div>
@@ -246,9 +250,10 @@
         <!-- <div class="footer-container"> -->
         <div class="footer-sections">
           <div class="f-col f-nav-links">
-            <a href="#" class="f-nav-link">MINT</a>
-            <a href="#" class="f-nav-link">CITY MAPS</a>
-            <a href="#" class="f-nav-link">GALLERY</a>
+            <a href="#" class="f-nav-link effect-pop">HOME</a>
+            <a href="#" class="f-nav-link effect-pop">CITY MAP<span class="coming-soon">(coming soon)</span></a>
+            <a href="#" class="f-nav-link effect-pop">GALLERY<span class="coming-soon">(coming soon)</span></a>
+            <a href="https://docs.google.com/presentation/d/1C0tJjJfWfDrJb3uENaWjT8PdRWUAuyhIEp6FLt6tR28/edit#slide=id.p" class="f-nav-link effect-pop">LITEPAPER</a>
           </div>
           <div class="f-col f-logo-banner">
             <img src="assets/images/footer banner.svg" alt="footer">
@@ -258,12 +263,12 @@
               <h2 class="f-soc-text">JOIN US</h2>
             </div>
             <div class="f-row">
-              <a href="https://www.discord.com/invite/4X8WrsGB4Q9"><img
+              <a class="effect-pop" href="https://www.discord.com/invite/4X8WrsGB4Q9"><img
                   src="assets/images/discord logos/Discord-Logo-White.svg" alt="Discord" class="discord-f-logo"></a>
-              <a href="https://twitter.com/OrdinarySolana"><img
+              <a class="effect-pop" href="https://twitter.com/OrdinarySolana"><img
                   src="assets/images/twitter logos/2021 Twitter logo - white.png" alt="Twitter"
                   class="twitter-f-logo"></a>
-              <a href="https://www.instagram.com/ordinarysol.nft/"><img
+              <a class="effect-pop" href="https://www.instagram.com/ordinarysol.nft/"><img
                   src="assets/images/instagram logos/instagram.svg" alt="Instagram" class="instagram-f-logo"></a>
             </div>
           </div>
