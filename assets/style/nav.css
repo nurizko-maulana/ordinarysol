@@ -103,6 +103,7 @@ img {
   position: absolute;
   display: flex;
   margin-left: var(--marginLg);
+  /* padding: 20px 70px 70px 20px !important; */
   padding: 20px 70px !important;
   left: -50px;
   z-index: 100;
@@ -136,7 +137,7 @@ img {
   font-weight: 900;
   color: #5a5a5a;
   transition: 0.2s;
-  font-family: "moon";
+  font-family: "moon bold";
   letter-spacing: 2px;
 }
 
@@ -195,7 +196,7 @@ img {
 .nav-discord-logo,
 .nav-twitter-logo,
 .nav-instagram-logo{
-  height: 1.2em;
+  height: 1em;
   width: auto;
   margin: 15px 20px 0 0;
 }
@@ -217,7 +218,9 @@ img {
   font-size: 20px;
   border-radius: 5px;
   position: relative;
+  /* left: 0px; */
   left: -50px;
+  margin-bottom: 10px;
 }
 
 .close-nav-items:hover {
