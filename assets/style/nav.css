@@ -313,4 +313,7 @@ img {
   .nav-items {
     display: none;
   }
+  .close-nav-items{
+    width: fit-content;
+  }
 }
