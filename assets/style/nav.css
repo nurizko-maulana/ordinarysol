@@ -60,10 +60,21 @@ img {
 }
 
 .coming-soon {
-  font-size: 0.6em;
+  display: inline-block;
+  font-size: 0.5em;
   color: crimson;
   align-self: center;
+  line-height: 20px;
+  transform: translate(1px, -12px);
 }
+/* .coming-soon {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: crimson;
+  align-self: center;
+  transform: translate(50px, -45px);
+  margin-bottom: 10px;
+} */
 
 .nav-transparent {
   background-color: transparent;
@@ -92,6 +103,7 @@ img {
   position: absolute;
   display: flex;
   margin-left: var(--marginLg);
+  /* padding: 20px 70px 70px 20px !important; */
   padding: 20px 70px !important;
   left: -50px;
   z-index: 100;
@@ -122,10 +134,11 @@ img {
 
 .nav-items a {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 900;
   color: #5a5a5a;
   transition: 0.2s;
-  font-family: "moon";
+  font-family: "moon bold";
+  letter-spacing: 2px;
 }
 
 .nav-items li a:hover {
@@ -175,6 +188,19 @@ img {
   transition: 0.8s;
 } */
 
+.nav-soc-logos{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-discord-logo,
+.nav-twitter-logo,
+.nav-instagram-logo{
+  height: 1em;
+  width: auto;
+  margin: 15px 20px 0 0;
+}
+
 .nav-sections {
   display: flex;
   justify-content: space-between;
@@ -192,7 +218,9 @@ img {
   font-size: 20px;
   border-radius: 5px;
   position: relative;
+  /* left: 0px; */
   left: -50px;
+  margin-bottom: 10px;
 }
 
 .close-nav-items:hover {
@@ -232,6 +260,7 @@ img {
   left: -16px;
   top: -20px;
   z-index: 2;
+  cursor: pointer;
 }
 
 .menu-toggle span {
@@ -255,7 +284,7 @@ img {
 }
 
 .menu-toggle input:checked ~ span:nth-child(2) {
-  transform: rotate(45deg) translate(1.5px, 1.5px);
+  transform: rotate(45deg) translate(2.8px, 2.8px);
 }
 
 .menu-toggle input:checked ~ span:nth-child(4) {

@@ -10,6 +10,7 @@
   border-radius: 1em;
   margin-top: 1em;
   border: 0.2em solid black;
+  width: 40vw;
 }
 
 .link {
@@ -68,6 +69,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 70vw;
 }
 
 .message-box {
@@ -100,6 +102,42 @@
 .faq-container img {
   width: 15em;
   height: 15em;
+}
+
+@media screen and (max-width: 1440px) {
+  .wrap-faq-character {
+    transform: translateX(-1em);
+    min-width: 30em;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .wrap-faq-character {
+    transform: translateX(-10%);
+    min-width: 30em;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .wrap-faq-character {
+    transform: translateX(8%);
+    min-width: 20em;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .wrap-faq-character {
+    transform: translateX(3%);
+    min-width: 20em;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .wrap-faq-character {
+    transform: translateX(3%);
+    min-width: 20em;
+  }
+  .faq-container{
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 650px) {

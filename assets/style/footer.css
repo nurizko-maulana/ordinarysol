@@ -41,7 +41,7 @@
 .f-row{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .f-logo-banner{
@@ -49,8 +49,8 @@
 }
 
 .f-nav-link, .f-soc-text{
-  font-family: "Moon";
-  font-size: 36px;
+  font-family: "Moon bold";
+  font-size: 30px;
   color: white;
   font-weight: bold;
   text-decoration: none!important;
@@ -58,11 +58,26 @@
   letter-spacing: 6px;
 }
 
+.f-soc-text{
+  text-align: center;
+}
+
+.f-soc{
+  width: 280px;
+}
+
 .discord-f-logo, 
 .twitter-f-logo, 
 .instagram-f-logo{
   height: 2.5em;
   width: auto;
+}
+
+.f-nav-link:hover{
+  color: #5a5a5a;
+}
+.f-nav-link .coming-soon{
+  letter-spacing: 0.5px;
 }
 
 @media screen and (max-width: 1096px) {
@@ -78,7 +93,7 @@
     transform: translateY(38px);
   }
   .f-nav-link, .f-soc-text{
-    font-family: "Moon";
+    /* font-family: "Moon"; */
     font-size: 30px;
     line-height: 60px;
     letter-spacing: 6px;
@@ -91,7 +106,7 @@
     transform: translateY(62px);
   }
   .f-nav-link, .f-soc-text{
-    font-family: "Moon";
+    /* font-family: "Moon"; */
     font-size: 25px;
     line-height: 60px;
     letter-spacing: 6px;
@@ -111,7 +126,7 @@
     transform: translateY(62px);
   }
   .f-nav-link, .f-soc-text{
-    font-family: "Moon";
+    /* font-family: "Moon"; */
     font-size: 25px;
     line-height: 50px;
     letter-spacing: 6px;
