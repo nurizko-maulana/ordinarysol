@@ -138,6 +138,10 @@
   .faq-container{
     flex-direction: column;
   }
+  .faq-card {
+
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -149,5 +153,6 @@
   }
   .faq-container {
     padding: 1em;
+    width: 100%;
   }
 }
