@@ -56,9 +56,14 @@
   .wrap-image {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 1em;
+    grid-gap: 0;
+    margin-top: 1em;
   }
   .rarity-card {
     margin-right: 0;
+    transform: scale(0.7);
+  }
+  #rarity-title{
+    margin-top: 5em;
   }
 }

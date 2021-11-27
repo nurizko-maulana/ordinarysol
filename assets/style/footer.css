@@ -107,6 +107,7 @@
 @media screen and (max-width: 788px) {
   .f-logo-banner{
     width: 20em;
+    display: none;
     transform: translateY(62px);
   }
   .f-nav-link, .f-soc-text{
@@ -114,6 +115,13 @@
     font-size: 25px;
     line-height: 50px;
     letter-spacing: 6px;
+  }
+  .footer-sections{
+    flex-direction: column;
+  }
+
+  .f-nav-link{
+    text-align: center;
   }
   .discord-f-logo, 
   .twitter-f-logo, 

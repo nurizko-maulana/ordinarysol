@@ -38,6 +38,6 @@
 @media screen and (max-width: 650px) {
   .landing-banner {
     width: 100vw;
-    top: 19em;
+    top: 45%;
   }
 }
