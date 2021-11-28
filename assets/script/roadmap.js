@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const eles = document.getElementsByClassName("roadmap-wrapper");
   const ele = eles[0];
-  console.log(ele);
 
   let pos = { top: 0, left: 0, x: 0, y: 0 };
 
