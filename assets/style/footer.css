@@ -45,7 +45,7 @@
 }
 
 .f-logo-banner{
-  transform: translateY(20px);
+  transform: translateY(130px);
 }
 
 .f-nav-link, .f-soc-text{
@@ -80,30 +80,42 @@
   letter-spacing: 0.5px;
 }
 
-@media screen and (max-width: 1096px) {
-  .f-logo-banner{
-    width: 24em;
-    transform: translateY(38px);
+/* @media screen and (max-height: 600px) and (max-width: 1000px){
+  #footer-section {
+    margin-top: 20em;
   }
-}
+} */
+
+/* @media screen and (max-height: 00px) {
+  #footer-section {
+    margin-top: 20em;
+  }
+} */
 
 @media screen and (max-width: 1096px) {
+  #footer-section {
+    background-color: var(--bgYellow);
+    height: 369px!important;
+    border-top: 10px solid #333333;
+    padding: 0;
+  }
+
   .f-logo-banner{
-    width: 24em;
-    transform: translateY(38px);
+    width: 22em;
+    transform: translateY(100px);
   }
   .f-nav-link, .f-soc-text{
     /* font-family: "Moon"; */
-    font-size: 30px;
+    font-size: 26px;
     line-height: 60px;
     letter-spacing: 6px;
   }
 }
 
-@media screen and (max-width: 906px) {
+@media screen and (max-width: 999px) {
   .f-logo-banner{
     width: 20em;
-    transform: translateY(62px);
+    transform: translateY(92px);
   }
   .f-nav-link, .f-soc-text{
     /* font-family: "Moon"; */
@@ -116,6 +128,30 @@
   .instagram-f-logo{
     height: 2em;
     width: auto;
+  }
+}
+
+
+
+@media screen and (max-width: 911px) {
+  .f-logo-banner{
+    width: 16em;
+    transform: translateY(100px);
+  }
+  .f-nav-link, .f-soc-text{
+    /* font-family: "Moon"; */
+    font-size: 25px;
+    line-height: 60px;
+    letter-spacing: 3px;
+  }
+  .discord-f-logo, 
+  .twitter-f-logo, 
+  .instagram-f-logo{
+    height: 2em;
+    width: auto;
+  }
+  .f-soc{
+    width: 200px;
   }
 }
 
@@ -143,5 +179,19 @@
   .instagram-f-logo{
     height: 2em;
     width: auto;
+  }
+  .f-nav-link:nth-child(2){
+    transform: translateX(40px);
+  }
+  .f-nav-link:nth-child(3){
+    transform: translateX(40px);
+  }
+}
+
+@media screen and (max-width: 788px) {
+  .f-nav-link, .f-soc-text{
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 6px;
   }
 }

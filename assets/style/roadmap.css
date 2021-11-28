@@ -8,7 +8,7 @@
 .roadmap-container p {
   position: relative;
   left: 30vw;
-  bottom: 10vh;
+  bottom: 5vh;
   text-transform: uppercase;
   font-family: moon;
   width: fit-content;
@@ -30,8 +30,13 @@
   text-align: center;
 }
 
-/* @media screen and (max-width: 1789px) {
-    .roadmap-img{
-        height: 100vh;
-    }
-} */
+@media screen and (max-width: 434px) {
+  .roadmap-container p {
+    left: 20vw;
+    bottom: 5vh;
+  }
+  .roadmap-container .title-divider{
+    width: 13em;
+  }
+}
+

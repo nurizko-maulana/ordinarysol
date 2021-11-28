@@ -13,10 +13,11 @@
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  left: 0;
-  right: 0;
-  max-height: 100vh;
-  top: 0;
+  /* max-height: 100vh; */
+  max-width: 80vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .mint {
@@ -25,14 +26,23 @@
 
 .sky {
   width: 100vw;
-  height: 65%;
+  height: 65vh;
   background-color: cadetblue;
+  position: relative;
+  top: -100px;
 }
 
 .wrap-banner {
   position: relative;
   width: 100vw;
   height: 100vh;
+}
+
+@media screen and (max-width: 1024px) {
+  .landing-banner {
+    max-width: 100vw;
+    top: 45%;
+  }
 }
 
 @media screen and (max-width: 650px) {

@@ -51,6 +51,7 @@
 
 .description {
   margin-top: 1em;
+  text-align: justify;
 }
 
 .divider {
@@ -95,7 +96,47 @@
   font-size: 1.5em;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1210px) {
+  .about-us-container img{
+    width: 12em;
+    height: 12em;
+  }
+  .about-us .tagline h1 {
+    font-size: 2em;
+  }
+  .about-us .tagline p {
+    font-size: 1.1em;
+    margin-bottom: 5em;
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .about-us-container {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 999px) {
+  .panel-down {
+    position: absolute;
+    bottom: -100px;
+    left: -175px;
+    right: 0;
+    overflow-x: scroll;
+    display: flex;
+  }
+  
+  .panel-up {
+    position: absolute;
+    top: -100px;
+    left: -175px;
+    right: 0;
+    overflow-x: scroll;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 858px) {
   .about-us-container {
     flex-direction: column;
     align-items: center;
@@ -118,8 +159,7 @@
   .about-us-container img {
     width: 10em;
     height: 10em;
-    margin-bottom: 1em;
-    margin-top: -12em;
+    margin: 0 auto 1em auto;
   }
   .about-us gif {
     width: 60vw;
@@ -128,5 +168,25 @@
     max-width: 100vw;
     object-fit: cover;
     margin-bottom: 1em;
+  }
+  .wrap-relative {
+    height: 100vh;
+    width: 100vw;
+  
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .description {
+    margin: 0em;
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .about-us .tagline h1 {
+    font-size: 1.6em;
+    text-align: center;
   }
 }

@@ -11,10 +11,13 @@
 .wrap-image {
   display: flex;
   margin-top: 3em;
+  justify-content: center;
+  align-items: center;
 }
 .rarity-card {
   border-radius: 1em;
-  margin-right: 4.375em;
+  margin: 0 2em;
+  /* margin-right: 4.375em; */
   width: 12em;
   /* background-color: var(--bgPink); */
   text-align: center;
@@ -52,18 +55,79 @@
 .rarity-card h3 span {
   display: block;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1112px) {
+  .wrap-image {
+    display: flex;
+    margin-top: 3em;
+    justify-content: center;
+    align-items: center;
+  }
+  .rarity-card {
+    border-radius: 1em;
+    margin: 0 1em;
+    width: 12em;
+  }
+}
+
+@media screen and (max-width: 910px) {
   .wrap-image {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 0;
+    grid-gap: 2em;
     margin-top: 1em;
   }
   .rarity-card {
-    margin-right: 0;
-    transform: scale(0.7);
+    margin: 0 1em;
+    /* transform: scale(0.7); */
   }
   #rarity-title{
     margin-top: 5em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .wrap-image {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1em;
+    margin-top: 1em;
+  }
+  .rarity-card {
+    margin: 0;
+    transform: scale(0.9);
+  }
+  #rarity-title{
+    margin-top: 5em;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .wrap-image {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1em;
+    margin-top: 1em;
+  }
+  .rarity-card {
+    margin: 0;
+    transform: scale(0.7);
+  }
+}
+@media screen and (max-width: 398px) {
+  .wrap-image {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 0em;
+    margin-top: 1em;
+  }
+  .rarity-card {
+    margin: 0;
+    transform: scale(1);
+  }
+  .rarirty-wraper {
+    height: 40em;
+  }
+  .rarity .wrap-relative{
+    height: 60em;
   }
 }
