@@ -29,7 +29,7 @@ $(document).ready(function () {
   });
 
   $("#top").click(function () {
-    $('html,body').scrollTop(0);
+    window.scrollTo(0, 0);
   });
 
   $(".nav-item:eq(3)").click(function () {
