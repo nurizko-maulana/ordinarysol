@@ -28,6 +28,10 @@ $(document).ready(function () {
     // }
   });
 
+  $("#top").click(function () {
+    $('html,body').scrollTop(0);
+  });
+
   $(".nav-item:eq(3)").click(function () {
     $('#checkbox-nav').prop('checked', false);
     $(".nav-items").toggle(500);
