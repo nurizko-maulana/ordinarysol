@@ -20,12 +20,22 @@ $(document).ready(function () {
     $('#checkbox-nav').prop('checked', false);
     $(".nav-items").toggle(500);
     $(".menu-toggle");
-    console.log("clicked")
-    if($("#checkbox-nav").is(":checked")) {
-      console.log("Checked");
-    } else {
-      console.log("Not checked");
-    }
+    // console.log("clicked")
+    // if($("#checkbox-nav").is(":checked")) {
+    //   console.log("Checked");
+    // } else {
+    //   console.log("Not checked");
+    // }
+  });
+
+  $("#top").click(function () {
+    window.scrollTo(0, 0);
+  });
+
+  $(".nav-item:eq(3)").click(function () {
+    $('#checkbox-nav').prop('checked', false);
+    $(".nav-items").toggle(500);
+    $(".menu-toggle");
   });
   
   $(".menu-toggle").click(function () {

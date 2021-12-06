@@ -56,7 +56,7 @@
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 </head>
 
-<body>
+<body id="top">
   <div class="page-loader">
     <img class="loading-image" src="assets/gif/OS-page-loader.gif" alt="Loading..." />
   </div>
@@ -87,11 +87,13 @@
 
   <div class="nav-items">
     <div class="close-nav-items"><i class="fa fa-times" aria-hidden="true"></i></div>
-    <a href="index.html" class="nav-item selected">HOME</a>
-    <a href="#" class="nav-item effect-pop">GALLERY<span class="coming-soon">(coming soon)</span></a>
-    <a href="#" class="nav-item effect-pop">CITY MAP<span class="coming-soon">(coming soon)</span></a>
-    <a href="https://docs.google.com/presentation/d/1C0tJjJfWfDrJb3uENaWjT8PdRWUAuyhIEp6FLt6tR28/edit#slide=id.p"
-      class="nav-item effect-pop">LITEPAPER</a>
+    <div class="nav-items-cont">
+      <a href="index.html" class="nav-item selected">HOME</a>
+      <a href="#" class="nav-item effect-pop">GALLERY<span class="coming-soon">(coming soon)</span></a>
+      <a href="#" class="nav-item effect-pop">CITY MAP<span class="coming-soon">(coming soon)</span></a>
+      <a href="https://docs.google.com/presentation/d/1C0tJjJfWfDrJb3uENaWjT8PdRWUAuyhIEp6FLt6tR28/edit#slide=id.p"
+        class="nav-item effect-pop">LITEPAPER</a>
+    </div>
     <div class="nav-soc-logos">
       <a href="https://www.discord.com/invite/4X8WrsGB4Q9" class="nav-soc-logo effect-pop"><img class="nav-discord-logo"
           src="assets/images/discord logos/Discord-Logo-White.svg" alt="Discord"></a>
@@ -250,7 +252,7 @@
         <!-- <div class="footer-container"> -->
         <div class="footer-sections">
           <div class="f-col f-nav-links">
-            <a href="#" class="f-nav-link effect-pop">HOME</a>
+            <a id="scrollUp" href="#top" class="f-nav-link effect-pop">HOME</a>
             <a href="#" class="f-nav-link effect-pop">CITY MAP<span class="coming-soon">(coming soon)</span></a>
             <a href="#" class="f-nav-link effect-pop">GALLERY<span class="coming-soon">(coming soon)</span></a>
             <a href="https://docs.google.com/presentation/d/1C0tJjJfWfDrJb3uENaWjT8PdRWUAuyhIEp6FLt6tR28/edit#slide=id.p"

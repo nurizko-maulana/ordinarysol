@@ -45,9 +45,26 @@
   }
 }
 
+@media screen and (max-width: 850px) {
+  .landing-banner {
+    width: 100vw;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+  }
+  .banner{
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .landing-banner {
     width: 100vw;
     top: 45%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+  }
+  .banner{
+    padding: 0;
   }
 }

@@ -304,6 +304,11 @@ img {
   transform: scale(0);
 }
 
+.nav-items-cont{
+  display: flex;
+  flex-direction: column;
+}
+
 /* media query for nav */
 
 @media screen and (max-width: 700px) {
