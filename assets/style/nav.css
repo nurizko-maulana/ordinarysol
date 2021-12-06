@@ -120,7 +120,10 @@ img {
   background-color: var(--bgYellow);
   border-bottom-right-radius: 60px; /* 100px of height + 10px of border */
   border-top-right-radius: 60px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
   height: 99.9vh;
 }
 
