@@ -18,6 +18,6 @@
   "homepage": "https://bitbucket.org/zahraAfa/landing-page#readme",
   "dependencies": {
     "gulp": "^4.0.2",
-    "gulp-imagemin": "^8.0.0"
+    "gulp-imagemin": "7.0.0"
   }
 }
