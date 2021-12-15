@@ -38,7 +38,6 @@ $(document).ready(function () {
         }
 
         if ($(this).hasClass('extraordinary')) {
-            console.log('extraordinary');
 
             $.each($('.card'), function (i, item) {
                 if ($(item).hasClass('extraordinary')) {
@@ -65,14 +64,11 @@ $(document).ready(function () {
     });
 
     for (let i; i < list.length; i++) {
-        console.log('loop');
         $(list[i]).click(function () {
             $(list[i]).toggleClass('active');
-            console.log('ok');
         });
     }
 
-    console.log(list.length);
     // $(list[1]).click(function(){
     //     $(list[1]).addClass('active');
     //     console.log('ok');

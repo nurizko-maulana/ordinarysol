@@ -23,11 +23,15 @@ function clean(cb) {
 
 function compress(cb) {
     return src('assets/images/OS Batch COMP HI RES/*').pipe(imagemin()).pipe(dest('assets/images/os'))
-//    return src('assets/images/OS logos/*').pipe(imagemin()).pipe(dest('assets/images/os'))
+    //    return src('assets/images/OS logos/*').pipe(imagemin()).pipe(dest('assets/images/os'))
 }
 function compressBatch2(cb) {
     return src('assets/images/ordinary/*').pipe(imagemin()).pipe(dest('assets/images/os'))
-//    return src('assets/images/OS logos/*').pipe(imagemin()).pipe(dest('assets/images/os'))
+    //    return src('assets/images/OS logos/*').pipe(imagemin()).pipe(dest('assets/images/os'))
+}
+function compressBatch3(cb) {
+    return src('assets/images/os/*').pipe(imagemin()).pipe(dest('assets/images/os-min'))
+    //    return src('assets/images/OS logos/*').pipe(imagemin()).pipe(dest('assets/images/os'))
 }
 
 // function copyHtml(){
@@ -44,4 +48,4 @@ function compressBatch2(cb) {
 // }
 
 // exports.build = build;
-exports.default = series(compressBatch2, clean);
+exports.default = series(compressBatch3, clean);
