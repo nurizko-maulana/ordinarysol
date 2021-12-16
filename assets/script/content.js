@@ -4,7 +4,7 @@ data.forEach(injectData);
 
 function injectData(item) {
     $('.rarirty-container').append(`<div class="card ordinary">
-    <img class="image placeholder" data-lazy="assets/images/os-min/Ordinary Sol ${item.number}.jpg" alt="">
+    <img class="image" width="240" width="240" data-lazy="assets/images/os-min/Ordinary Sol ${item.number}.jpg" alt="">
     <div class="tag">#${item.number}</div>
     <div class="mint"><span>Mint Now</span></div>
     </div>`);

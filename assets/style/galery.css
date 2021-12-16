@@ -39,12 +39,11 @@
 }
 
 .card img {
+  height: 15em;
   width: 15em;
   border-radius: 1em;
-}
-
-.image {
-  height: 15em;
+  background-color: gainsboro;
+  border: 0px !important;
 }
 
 .placeholder {
