@@ -2,6 +2,7 @@
 const { series, parallel, src, dest } = require('gulp');
 const imagemin = require('gulp-imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
+const imageminWebp = require('imagemin-webp');
 // import imagemin from 'gulp-imagemin';
 // const imagemin = require('gulp-imagemin');
 
@@ -34,6 +35,10 @@ function compressBatch3(cb) {
     return src('assets/images/os/*').pipe(imagemin([imageminMozjpeg({ quality: 0, progressive: true }),])).pipe(dest('assets/images/os-minimize'))
     //    return src('assets/images/OS logos/*').pipe(imagemin()).pipe(dest('assets/images/os'))
 }
+function convertToWebp(cb) {
+    return src('assets/images/os/*').pipe(imagemin([imageminMozjpeg({ quality: 0, progressive: true }),])).pipe(dest('assets/images/os-minimize'))
+    //    return src('assets/images/OS logos/*').pipe(imagemin()).pipe(dest('assets/images/os'))
+}
 
 // function copyHtml(){
 //     return src('src/*.html').pipe(dest('dist'))
@@ -49,4 +54,4 @@ function compressBatch3(cb) {
 // }
 
 // exports.build = build;
-exports.default = series(compressBatch3, clean);
+exports.default = series(convertToWebp, clean);

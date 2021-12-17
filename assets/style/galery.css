@@ -79,6 +79,10 @@
   justify-items: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .mint {
   display: flex;
   margin-top: 0.2em;
