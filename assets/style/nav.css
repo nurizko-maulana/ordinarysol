@@ -8,10 +8,10 @@ img {
   align-items: center;
   justify-content: center;
 }
-.nav-button1{
+.nav-button1 {
   display: flex;
 }
-.nav-button2{
+.nav-button2 {
   display: none;
 }
 .nav-button {
@@ -121,9 +121,9 @@ img {
   border-bottom-right-radius: 60px; /* 100px of height + 10px of border */
   border-top-right-radius: 60px;
   -webkit-box-sizing: border-box !important;
-	-moz-box-sizing: border-box !important;
-	-ms-box-sizing: border-box !important;
-	box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  -ms-box-sizing: border-box !important;
+  box-sizing: border-box !important;
   height: 99.9vh;
 }
 
@@ -197,14 +197,14 @@ img {
   transition: 0.8s;
 } */
 
-.nav-soc-logos{
+.nav-soc-logos {
   display: flex;
   flex-direction: row;
 }
 
 .nav-discord-logo,
 .nav-twitter-logo,
-.nav-instagram-logo{
+.nav-instagram-logo {
   height: 1em;
   width: auto;
   margin: 15px 20px 0 0;
@@ -221,6 +221,9 @@ img {
   text-align: center;
 }
 
+.close-nav-items i {
+  font-style: normal;
+}
 .close-nav-items {
   background-color: var(--bgGreen);
   padding: 5px 10px;
@@ -228,6 +231,9 @@ img {
   border-radius: 5px;
   position: relative;
   /* left: 0px; */
+  font-family: "Moon bold";
+  font-weight: bold;
+  font-style: normal;
   left: -50px;
   margin-bottom: 10px;
 }
@@ -304,7 +310,7 @@ img {
   transform: scale(0);
 }
 
-.nav-items-cont{
+.nav-items-cont {
   display: flex;
   flex-direction: column;
 }
@@ -312,11 +318,11 @@ img {
 /* media query for nav */
 
 @media screen and (max-width: 700px) {
-  .nav-button1{
-    display: none!important;
+  .nav-button1 {
+    display: none !important;
   }
-  .nav-button2{
-    display: flex!important;
+  .nav-button2 {
+    display: flex !important;
   }
   .nav-button2-div {
     font-weight: 900;
@@ -369,7 +375,6 @@ img {
 }
 
 @media screen and (max-width: 400px) {
-
   .nav-body {
     padding: 0px var(--marginSm);
   }
