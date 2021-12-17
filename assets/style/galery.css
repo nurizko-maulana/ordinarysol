@@ -83,6 +83,10 @@ a {
   text-decoration: none;
 }
 
+a > span {
+  color: var(--bgGreen);
+}
+
 .mint {
   display: flex;
   margin-top: 0.2em;

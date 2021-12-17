@@ -6,7 +6,7 @@ function injectData(item) {
     $('.rarirty-container').append(`<div class="card ordinary">
     <img class="image" width="240" width="240" data-lazy="assets/images/os-min/Ordinary Sol ${item.number}.jpg" alt="">
     <div class="tag">#${item.number}</div>
-    <div class="mint"><a href="https://exchange.art/collections/Ordinary%20Peopl"><span>Mint Now</span></a></div>
+    <a href="https://exchange.art/collections/Ordinary%20People"><div class="mint"><span>Mint Now</span></div></a>
     </div>`);
 }
 
